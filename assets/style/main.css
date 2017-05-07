@@ -1,0 +1,35 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: yellow;
+  color: black;
+  padding: 1em;
+  margin: 1em;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.container {
+  padding: 1em;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.bee-info {
+  width: 100%;
+  transform: translateX(100%);
+  text-align: center;
+}
+
+.bee-info.active {
+  transition: all 400ms;
+  transform: translateX(0);
+}
