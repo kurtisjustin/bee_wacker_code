@@ -2,6 +2,7 @@ var Bees = ( function () {
 
     // module settings
     var settings = {
+      
     };
 
     // One array to bind them
