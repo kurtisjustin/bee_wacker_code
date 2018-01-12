@@ -2,7 +2,7 @@ var Bees = ( function () {
 
     // module settings
     var settings = {
-      
+
     };
 
     // One array to bind them
@@ -16,7 +16,7 @@ var Bees = ( function () {
 
         switch ( stats.type ) {
             case 'drone' :
-                this.health = 50;
+                this.health = 45;
                 break;
             case 'worker' :
                 this.health = 75;
